@@ -2,7 +2,6 @@ import { useState } from "react";
 import Header from "./components/Header";
 import FeedbackData from "./data/FeedbackData";
 import FeadbackList from "./components/FeedbackList";
-import Card from "./components/shared/Card";
 import FeedbackStats from "./components/FeedbackStats";
 function App() {
   const [feedback, setFeedback] = useState(FeedbackData);
